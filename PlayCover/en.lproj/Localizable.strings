@@ -203,6 +203,8 @@
 "settings.toggle.iosFrameworks.help" = "Add the system ios libraries to the app. Known to fix issues with some apps cannot find ios framework";
 "settings.toggle.checkMicPermissionSync" = "Check Microphone Permission Synchronously";
 "settings.toggle.checkMicPermissionSync.help" = "Force microphone permission check to be synchronous. Known to fix issues with some apps complaining about microphone permission not being granted";
+"settings.toggle.disableMicVoiceProcessing" = "Disable Microphone Voice Processing";
+"settings.toggle.disableMicVoiceProcessing.help" = "Prevents macOS from applying noise reduction, echo cancellation, and automatic gain control to microphone input. Useful when routing music through Loopback or virtual audio devices.";
 
 "settings.applicationCategoryType" = "Application Type";
 "settings.removePlayTools" = "Remove PlayTools";

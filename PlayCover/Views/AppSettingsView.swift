@@ -600,6 +600,12 @@ struct BypassesView: View {
                 }
                 Spacer()
                 HStack {
+                    Toggle("settings.toggle.disableMicVoiceProcessing", isOn: $settings.settings.disableMicVoiceProcessing)
+                        .help("settings.toggle.disableMicVoiceProcessing.help")
+                    Spacer()
+                }
+                Spacer()
+                HStack {
                     Toggle("settings.toggle.blockSleepSpamming", isOn: $settings.settings.blockSleepSpamming)
                         .help("settings.toggle.blockSleepSpamming.help")
                     Spacer()
